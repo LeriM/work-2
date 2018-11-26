@@ -1,0 +1,196 @@
+.float-right{
+	float: right;
+}
+.float-left{
+	float: left;
+}
+.container{
+	margin: 0 ;
+	display: block;
+	text-align: center;
+	position: relative;
+}
+.relative{
+	position: relative;
+}
+.absolute{
+	position: absolute;
+}
+.d-flex{
+	display: flex;
+}
+
+.bacground-center{
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.banner-section{
+	top: 0;
+	padding: 0;
+}
+.color-banner{
+	position: absolute;
+	top: 0px;
+	left:0px;
+	opacity: 0.9;
+	width: 101%;
+}
+.banner-ul{
+	transform: translate(-50%, 50%);
+	position: absolute;
+	left: 50%;
+	bottom: 50%;
+}
+.banner-li{
+	font-size: 30px;
+	color: white;
+}
+.navigation-a:hover{
+	color: #00E0D0;
+}
+
+.header{
+	position: fixed;
+	width: 100%;
+	padding-right: 10%;
+	padding-left:10%;
+	background-color:rgba(48,28,93,0.65);
+	height: 100px;
+	z-index: 500;
+	}
+.header-wrapper{
+	justify-content: space-between;
+	height: 100%;
+	align-items: center;
+	max-width: 85%;
+}
+.navigation-a{
+	font-size: 12px;
+	color: white;
+	padding: 0 15px;
+	text-decoration: none;
+}
+.logo{
+	width: 130px;
+}
+.banner-img{
+	width: 100%;
+}
+.new-york-img{
+	width: 127%;
+}
+.img-name{
+	width: 75px;
+}
+.logocolored{
+	max-height: 230px;
+}
+.container-2{
+	margin: 0 ;
+	display: block;
+	text-align: center;
+	position: relative;
+}
+.center{
+	align-items:  center;
+	justify-content: space-between; 
+}
+.our-story{
+	background-color: white;
+	padding-left: 20%;
+	padding-top: 70px;
+	padding-bottom: 65px;
+}
+.OUR-STORY-DIV{
+	max-width: 75%;
+	justify-content: space-between;
+}
+.button {
+    background-color: #00E0D0; 
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.1s; /* Safari */
+    transition-duration: 0.1s;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: #00E0D0;
+    color: white;
+}
+.button {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #00E0D0;
+}
+.video-section-div{
+	width: 100%;
+	padding: 0px;
+}
+.height{
+ max-height: 960px;
+ z-index: 5;
+}
+.play-button{
+z-index: 500;
+max-height:105px; 
+}
+.footer{
+	padding-top: 4%;
+	padding-bottom: 3%;
+}
+.footer-div{
+	padding-left: 10%;
+	padding-right: 10%;
+}
+.footer-div-bottom{
+	padding-left: 10%;
+	padding-right: 10%;
+	justify-content: space-between;
+	text-decoration: none;
+}
+.footer-a{
+	text-decoration: none; 
+	color: black;
+}
+.icons-img{
+	max-width: 35px;
+	height: 33px;
+}
+.icons-S{
+	height: 16px;
+	width: 15px;
+	margin-right: 10px;
+}
+.space-between{
+	justify-content: space-between;
+}
+.footer-lorem{
+	max-width: 283px;
+}
+.logo-footer{
+	width: 130px;
+	margin-top: -8px;
+	margin-bottom: 2px;
+}
+.Subscribe{
+    width: 100%;
+    padding: 14px 20px;
+    margin: 0px 1px;
+    margin-bottom: 6px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.submit{
+	width: 70px;
+	max-height: 45px;
+	align-items: center;
+}
